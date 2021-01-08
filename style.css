@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Merriweather:wght@300&family=Open+Sans+Condensed:wght@300&display=swap');
+html.scenic-views {
+  background-image: url('sky.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+}
+html.winter {
+  background-image: url('winter.jpeg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+}
+html.spring {
+  background-image: url('flowers.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+}
+html.summer {
+  background-image: url('beach.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+}
+html.fall {
+  background-image: url('fall-hill.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+}
+.logo {
+  height: 110px;
+  float: left;
+  margin-right: 10px;
+}
+.cards img {
+  max-height: 175px;
+  border: 3px solid rgb(65, 9, 97);
+}
+a:link {
+  color: rgb(200, 185, 50);
+}
+a:visited {
+  color: rgb(58, 134, 148);
+}
+a:hover {
+  color: rgb(173, 110, 8);
+}
+a.current {
+  color: rgb(136, 133, 133);
+}
+a:active {
+  color: rgb(180, 11, 11);
+}
+li {
+  margin-bottom: 10px;
+}
+h1 {
+  color: rgb(33, 36, 163);
+  font-family: "Alfa Slab One", fantasy;
+}
+p {
+  color: rgb(69, 26, 93);
+  font-family: "Merriweather", serif;
+  font-size: 14px;
+  text-align: justify;
+}
+h2 {
+  color: rgb(31, 125, 168);
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 32px;
+}
+.textblock {
+  background-color: rgba(192, 191, 191, 0.479);
+  margin-right: 43%;
+  padding: 10px;
+}
